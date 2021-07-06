@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson 3| HTML Form</title>
+</head>
+<body>
+    <!-- form attributes: 
+        Action(where you send your data), PHP, ASP (Active Server Pages), JSP (JavaServer Pages) 
+        Method (GET/POST)
+        Name, ID, Class, autocomplete, onsubmit(validation)-->
+        <!-- form element: text, email, password, date, tel, number, reset, submit, radio, checknox, select and option, text area -->
+        <!-- element attributes:
+        Name, ID, class, required, readonly, placeholder(hint), width, size, value -->
+        <!-- web accessibility standard: label, role, title -->
+    <form action=""Method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"placeholder="Enter Your Name" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="" id=""placeholder="Enter Your Email">
+        <br><br> 
+        <label for="passsword">Password</label>
+        <input type="password" name="pasword" id="password">
+        <br><br>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone" placeholder="Enter your number">
+        <br><br>
+        <label for="gender">gender</label>
+        <br>
+        <input type="radio" name="n1" id="n1">
+        <input type="radio" name="n1" id="n2">
+        <br><br>
+        <label for="city">City</label>
+        <select name="city" id="city">
+            <option value="v1">Seattle</option>
+        <option value="v2">Tacoma</option>
+        <option value="v3">Bellingham</option></select>
+        <br><br>
+        <label for="color">List of Colors</label>
+        <br>
+        Red<input type="checkbox" name="" id="">
+        Blue<input type="checkbox" name="" id="">
+        Black<input type="checkbox" name="" id="">
+        <br>
+        <label for="message">Comment</label>
+        <br>
+        <textarea name="message" id="message" cols="40" rows="6"placeholder="Comments"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <!-- Special Characters -->
+    &copy; &amp; &rAarr; &laquo; &reg; &times;
+    <br>
+    <a href="#">Home</a>&nbsp;&nbsp; &nbsp;  
+    <a href="#">About Us</a>
+</body>
+</html>
